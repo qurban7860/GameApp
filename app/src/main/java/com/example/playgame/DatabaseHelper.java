@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+// Creating database Connection
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String TABLE_RESULTS = "results";
     public static final String COLUMN_ID = "_id";
@@ -36,7 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_RESULTS);
         onCreate(db);
     }
-
+    //Adding th test result
     public void addTestResult(String questions, String selections, String correctAnswers, int score) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
