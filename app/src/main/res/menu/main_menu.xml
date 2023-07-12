@@ -4,15 +4,25 @@
     <group android:checkableBehavior="all">
         <item
             android:id="@+id/playgame"
+            android:icon="@drawable/ic_playgame"
 
             android:title="Play Game" />
         <item
             android:id="@+id/showresults"
+            android:icon="@drawable/ic_result"
 
             android:title="Results" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+
+            android:title="Feedback" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+
+            android:title="Share" />
 
     </group>
-
-
 
 </menu>

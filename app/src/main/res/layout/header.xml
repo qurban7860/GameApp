@@ -6,7 +6,6 @@
     <ImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:background="@color/black"
         android:src="@drawable/local_library" />
 
     <TextView
